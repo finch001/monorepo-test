@@ -1,13 +1,12 @@
 // Uncomment this line to use CSS modules
 // import styles from './app.module.css';
-import NxWelcome from './nx-welcome';
-
+import { Hero } from '@acme/ui';
 import { Route, Routes, Link } from 'react-router-dom';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="@acme/demo" />
+      <Hero title="Hello" subtitle="This is a subtitle" cta="Click me" />
 
       {/* START: routes */}
       {/* These routes and navigation have been generated for you */}
